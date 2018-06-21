@@ -1,0 +1,92 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.container{
+    height: 90%;
+    background-color: rgb(179, 153, 128, 90%);
+    color: #660002;
+}
+.btn{
+    background-color:  rgb(102,50,0);
+    color: rgb(255, 153, 51);
+}
+.main{
+    height: 100%;
+}
+.title{
+    height: 15%;
+}
+.titleImg{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.scr{
+    height: 85%;
+}
+.startScr{
+    height: 90%;
+    margin: auto 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.startScr h2{
+    margin-bottom: 10%;
+}
+.startScr .startG{
+    width: 50%;
+    height: 30%;
+    font-size: 5em;
+    margin-bottom: 10%;
+}
+.questScr{
+    height: 90%;
+    margin: auto 20px;
+}
+.info{
+    height: 30%;
+    padding-top: 1em;
+}
+.choices{
+    height:70%;
+    padding-top: 1em;
+}
+.choices .btn-choice{
+    height: 40%;
+    width: 45%;
+    margin: 1% 2%;
+    font-size: 3em;
+}
+.ansScr{
+    height: 90%;
+    margin: auto 20px;
+}
+.ansWrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resImage{
+    margin:  1em;
+    height: 150px;
+    width: 300px;
+    border: solid white 2px;
+}
+.resScr{
+    height: 90%;
+    margin: auto 20px;
+}
+#ansImage{
+    height: 300px;
+    width: 600px;
+}
+
